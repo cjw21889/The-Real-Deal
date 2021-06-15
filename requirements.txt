@@ -8,6 +8,7 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+xgboost
 
 # tests/linter
 black
@@ -15,6 +16,8 @@ coverage
 flake8
 pytest
 yapf
+fastapi
+uvicorn
 
 # API
 gcsfs
